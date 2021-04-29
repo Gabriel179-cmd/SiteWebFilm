@@ -1,17 +1,25 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="style.css" />
 <title> Site de Gabriel </title>
 <style>
 h1 {
   font-size: 300%;
+}
+.clignote {
+  color:red;
+  animation: clignote 0.5s linear infinite;
+}
+@keyframes clignote {  
+  50% { opacity: 0; }
 }
 </style>
 </head>
 V.1 (25/04/2021)
 <body>
 <center>
-<h1> Bienvenue sur mon site </h1>
+<h1> Bienvenue sur mon site </h1> <a href="https://gabriel179-cmd.github.io/SiteWebFilm/principale.html"> Revenir à l'écran d'accueil </a>
 </center>
 <h2> Films à telecharger </h2>
 <pre> <a href="?C=N;O=D">Nom</a>                              <a href="?C=M;O=A">Dernière modification</a>                              <a href="?C=S;O=A">Taille</a>                              <a href="?C=D;O=A">Langue</a>                              <a href="?C=Q;O=A">Qualité</a><hr> <a href="https://1fichier.com/?v6is1mdtkmuwv6p20mxz&af=3108529">Godzilla vs Kong</a>                   25-04-2021 21:32                                  3 Go                              Français                               720p  
@@ -50,7 +58,7 @@ V.1 (25/04/2021)
 <pre> <a href="?C=N;O=D">Nom</a>                              <a href="?C=M;O=A">Dernière modification</a>                              <a href="?C=S;O=A">Taille</a>                              <a href="?C=D;O=A">Langue</a>                              <a href="?C=Q;O=A">Qualité</a>
 <hr>
 </pre>
-<h3><p style="color:#FF0000";>Des promos tous les mois pour une durée limitée !</p></h3>
+<h3><span class="clignote">Des promos tous les mois pour une durée limitée !</span></h3>
 Pour m'aider à développer le site : <form action="https://www.paypal.com/donate" method="post" target="_top">
 <input type="hidden" name="hosted_button_id" value="5Y4XX2QBVMMQL" />
 <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
@@ -124,5 +132,6 @@ Pour m'aider à développer le site : <form action="https://www.paypal.com/donat
 </form>
 <h4 align="right">Un problème ? une question ?, Contactez-moi par mail :  <a href="gaby73419@gmail.com">gaby73419@gmail.com</a></h4>
 © 2021 Site de Gabriel. Tous droits réservés.
+<marquee><p style="color:#FF0000";>Ce site est encore en construction. Merci pour votre patience et n'hésitez pas à faire un don dans la section attribuée pour m'aider dans le développement. Je reste néanmoins à disposition pour toute question à propos du site.</marquee>
 </body>
 </html>

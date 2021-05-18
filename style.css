@@ -1,4 +1,4 @@
 body
 {
-    background-image: url("couleur chaude.png");
+    background: linear-gradient(75deg, #FFEC33,#33FFFF);
 }

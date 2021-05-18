@@ -1,4 +1,8 @@
-body
-{
-    background-image: url("couleur chaude.jpg");
+.linear-gradient {
+  background: linear-gradient(70deg, blue, pink);
+}
+
+div {
+  width: 120px;
+  height: 120px;
 }

@@ -1,3 +1,4 @@
-.linear-gradient {
-  background: linear-gradient(70deg, blue, pink);
+body
+{
+    background-image: url("couleur chaude.png");
 }

@@ -10,3 +10,4 @@ $req->execute(array(
     'pseudo' => $pseudo,
     'pass' => $pass_hache,
     'email' => $email));
+?>

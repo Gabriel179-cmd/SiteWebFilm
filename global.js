@@ -1,3 +1,3 @@
 ﻿$(document).ready(function(){
-    $("#update").html("DerniÃ¨re mise Ã  jour : 21/05/2021");
+    $("#update").html("Dernière mise à jour : 21/05/2021");
 });

@@ -1,0 +1,73 @@
+﻿#sites {
+	width: 95%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-bottom: 2em;
+	margin-top: 5em;
+	/* background-color: darkred; */
+}
+
+.bt {
+	display: block;
+	height: 250px;
+	width: 500px;
+	border: 2px solid black;
+	margin: 3px 3px 3px 3px;
+	cursor: pointer;
+	border-radius: 0px;
+	background-position: center;
+	background-size: cover;
+	font-size: 2em;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
+.bt:hover {
+	border-color: white;
+	transition: 0.2s;
+	-webkit-transition: 0.2s;
+}
+
+.bt1 {
+	background-image: url("backgrounds/bg-solarSystem.jpg");
+	color: white;
+}
+
+.bt2 {
+	background-image: url("backgrounds/bg-chemistrySafety.jpg");
+	color: black;
+}
+
+.bt3 {
+	background-image: url("backgrounds/bg-periodicTable.jpg");
+	color: white;
+}
+
+.bt4 {
+	background-image: url("backgrounds/bg-physics.jpg");
+	color: white;
+}
+
+.bt5 {
+	background-image: url("backgrounds/bg-greekAlphabet.jpg");
+	color:white;
+}
+
+#rem_content {
+	display: block;
+	text-align: center;
+	width: 600px;
+	font-family: "ReadyPlayerOne";
+	letter-spacing: 2px;
+	font-size: 1.2em;
+	margin: 4em auto;
+}
+
+@media only screen and (max-width: 650px) {
+	#rem_content {
+		width: 96%;
+		padding: 2%;
+	}
+}

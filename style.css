@@ -1,0 +1,81 @@
+body
+{
+    background-image: url(https://prologue-alca.fr/sites/default/files/alca/styles/16x9_1920/public/ged/adobestock_196032189.jpeg?itok=CiDe-NvQ);
+    background-attachment: fixed;
+}
+h1
+{   
+    color:white;
+	font-size: 45px;
+}
+    .don {
+
+    position: absolute;
+    top: 0px;
+    right: 0px;
+	 }
+h2
+{   
+    color:black;
+	font-size: 60px;
+}
+h2 {
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+@keyframes down{
+	0% {position:relative; top:0px; opacity: 0}
+	50% {position:relative; top:15px; opacity: 0.5}
+	100% {position:relative; top:30px; opacity: 1}
+
+}
+
+.fleche{
+	animation: down 1s infinite linear alternate;
+	width: 3%;
+	}
+    .film {
+
+    position: absolute;
+    top: 1000px;
+    right: 1650px;
+	 }
+td {
+	color:white;
+}
+    .serie {
+
+    position: absolute;
+    top: 1000px;
+    right: 1300px;
+	 }
+	 .musique {
+
+    position: absolute;
+    top: 1000px;
+    right: 925px;
+	 }
+	 .jeu {
+
+    position: absolute;
+    top: 1000px;
+    right: 575px;
+	 }
+	  .lot {
+
+    position: absolute;
+    top: 1000px;
+    right: 50px;
+	 }
